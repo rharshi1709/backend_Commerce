@@ -1,0 +1,633 @@
+[
+  {
+    "id": 1,
+    "name": "Men's Casual Shirt",
+    "price": 799,
+    "categoryId": "men",
+    "image": "https://images-cdn.ubuy.co.in/6621c81885d4910d0a49cd4b-coofandy-men-39-s-casual-shirts.jpg",
+    "description": "A versatile men’s casual shirt crafted from breathable cotton. It offers comfort for long hours and keeps you fresh throughout the day. Its modern fit and stylish design make it perfect for both office wear and casual outings.",
+    "rating": 4.3
+  },
+  {
+    "id": 2,
+    "name": "Women's Saree",
+    "price": 2599,
+    "categoryId": "women",
+    "image": "https://sudathi.com/cdn/shop/files/3590s254_3.jpg?v=1754465685&width=1100",
+    "description": "A premium men’s formal shirt tailored for sharp looks and confidence. Designed with fine fabric and clean cuts, it’s ideal for meetings, presentations, and special events.",
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "name": "Kids' Sneakers",
+    "price": 999,
+    "categoryId": "kids",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0baKo7UPf31ZExepuuq4APB99Pl-1rsv9ig&s",
+    "description": "A lightweight and stylish men’s T-shirt made from soft cotton blend. Designed for everyday comfort, it pairs effortlessly with jeans or shorts for a casual look.",
+    "rating": 4.6
+  },
+  {
+    "id": 4,
+    "name": "Men's Hoodie",
+    "price": 1499,
+    "categoryId": "men",
+    "image": "https://adro.in/cdn/shop/files/Untitled41_baca462c-c7fb-4492-ab37-184d936a4644.png?v=1748936934&width=480",
+    "description": "Durable men’s denim jeans with a slim fit design for modern styling. Comfortable for daily wear and versatile enough for both casual and semi-formal looks.",
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "name": "Women's Handbag",
+    "price": 1599,
+    "categoryId": "women",
+    "image": "https://image.made-in-china.com/202f0j00aZHVYjhwEKge/Wholesale-Designer-Fashion-Handbag-Women-Shoulder-Hand-Bags-Ladies-Handbags.webp",
+    "description": "",
+    "rating": 4.6
+  },
+  {
+    "id": 6,
+    "name": "Kids' Pajama Set",
+    "price": 699,
+    "categoryId": "kids",
+    "image": "https://i.pinimg.com/736x/04/f2/be/04f2bef44e7b1e6f30068510685b9253.jpg",
+    "description": "Soft cotton pajama set for bedtime. Cute prints included.",
+    "rating": 4.4
+  },
+  {
+    "id": 7,
+    "name": "Men's Sunglasses",
+    "price": 1099,
+    "categoryId": "men",
+    "image": "https://images.meesho.com/images/products/355252495/mbnm6_512.webp?width=512",
+    "description": "Trendy sunglasses to protect your eyes from the sun. UV protection included.",
+    "rating": 4.6
+  },
+  {
+    "id": 8,
+    "name": "Women's Top",
+    "price": 699,
+    "categoryId": "women",
+    "image": "https://stylequotient.co.in/cdn/shop/products/22391504_1.jpg?v=1679458962",
+    "description": "Casual top with soft fabric. Available in multiple colors and patterns.",
+    "rating": 4.3
+  },
+  {
+    "id": 9,
+    "name": "Kids' Frock",
+    "price": 899,
+    "categoryId": "kids",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2023/5/310881328/IH/TJ/AB/3769275/kids-designer-frock-500x500.jpg",
+    "description": "Pretty frock for girls. Ideal for birthday parties and functions.",
+    "rating": 4.6
+  },
+  {
+    "id": 10,
+    "name": "Men's Sports Shoes",
+    "price": 2499,
+    "categoryId": "men",
+    "image": "https://paragonfootwear.com/cdn/shop/products/k1015g_blk_1.jpg?v=1741864787&width=1920",
+    "description": "Lightweight sports shoes for running and outdoor activities. Breathable material.",
+    "rating": 4.7
+  },
+  {
+    "id": 11,
+    "name": "Women's Necklace",
+    "price": 699,
+    "categoryId": "women",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgMk2hZrroKsrgwTQTCba369HsNiNH4z9Afw&s",
+    "description": "Fashionable necklace to complement any outfit. Lightweight and durable.",
+    "rating": 4.4
+  },
+  {
+    "id": 12,
+    "name": "Kids' Jeans",
+    "price": 699,
+    "categoryId": "kids",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdhmTi8iIC2DEo1nswXiDT7sFCicPxlZHJ6w&s",
+    "description": "Durable denim jeans for kids. Comfortable and long-lasting.",
+    "rating": 4.5
+  },
+  {
+    "id": 13,
+    "name": "Men's Jacket",
+    "price": 2199,
+    "categoryId": "men",
+    "image": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-5462_alternate10?$plpDeskRF$",
+    "description": "Stylish jacket for winters. Comfortable fit and warm lining.",
+    "rating": 4.5
+  },
+  {
+    "id": 14,
+    "name": "Women's Kurti",
+    "price": 899,
+    "categoryId": "women",
+    "image": "https://vionna.in/wp-content/uploads/2021/08/Untitled-design-9.png",
+    "description": "Elegant cotton kurti for casual and festive occasions. Comfortable fit.",
+    "rating": 4.5
+  },
+  {
+    "id": 15,
+    "name": "Kids' Sandals",
+    "price": 499,
+    "categoryId": "kids",
+    "image": "https://images.meesho.com/images/products/103772219/sjeqh_512.webp?width=512",
+    "description": "Durable sandals for everyday wear. Comfortable and stylish.",
+    "rating": 4.3
+  },
+  {
+    "id": 16,
+    "name": "Men's Formal Trousers",
+    "price": 1299,
+    "categoryId": "men",
+    "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014107261_437Wx649H_202208111704461.jpeg",
+    "description": "Elegant formal trousers suitable for office and parties. Slim fit design.",
+    "rating": 4.2
+  },
+  {
+    "id": 17,
+    "name": "Women's Sandals",
+    "price": 1299,
+    "categoryId": "women",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3QIf0KsKFh1vhghKhQL1sGoLfGVxgrRqFPQ&s",
+    "description": "Comfortable sandals for daily use. Stylish design and durable sole.",
+    "rating": 4.3
+  },
+  {
+    "id": 18,
+    "name": "Kids' Jacket",
+    "price": 1199,
+    "categoryId": "kids",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlyqNE9ByNKQJos2Ky0Xamb0rUVPpgZl1XR0V6YdCbdjaOIirDlhEQ3RXICO6uvCCcMhQ&usqp=CAU",
+    "description": "Warm winter jacket for kids. Comfortable and cozy.",
+    "rating": 4.5
+  },
+  {
+    "id": 19,
+    "name": "Men's T-Shirt",
+    "price": 699,
+    "categoryId": "men",
+    "image": "https://veirdo.in/cdn/shop/files/01_0004_8_9550f34c-29a5-445a-98cc-7038d725642d.jpg?v=1754546557",
+    "description": "Casual T-shirt with soft cotton fabric. Available in multiple colors.",
+    "rating": 4.4
+  },
+  {
+    "id": 20,
+    "name": "Women's Heels",
+    "price": 1899,
+    "categoryId": "women",
+    "image": "https://images.meesho.com/images/products/416011164/w3shv_512.webp?width=512",
+    "description": "Elegant heels suitable for parties and office wear. Comfortable fit.",
+    "rating": 4.5
+  },
+  {
+    "id": 21,
+    "name": "Kids' T-Shirt",
+    "price": 499,
+    "categoryId": "kids",
+    "image": "https://m.media-amazon.com/images/I/81tkGKQYfoL._UY1100_.jpg",
+    "description": "Soft cotton T-shirt with cartoon print. Perfect for daily wear.",
+    "rating": 4.4
+  },
+  {
+    "id": 22,
+    "name": "Men's Leather Belt",
+    "price": 499,
+    "categoryId": "men",
+    "image": "https://i.etsystatic.com/26967723/r/il/b51a6a/3093108203/il_570xN.3093108203_2ebh.jpg",
+    "description": "Premium leather belt for formal and casual wear. Adjustable size.",
+    "rating": 4.3
+  },
+  {
+    "id": 23,
+    "name": "Women's Jacket",
+    "price": 2199,
+    "categoryId": "women",
+    "image": "https://m.media-amazon.com/images/I/81jC7AXSK1L._UY1100_.jpg",
+    "description": "Warm and stylish jacket for winters. Perfect for casual outings.",
+    "rating": 4.5
+  },
+  {
+    "id": 24,
+    "name": "Kids' Ethnic Wear",
+    "price": 1299,
+    "categoryId": "kids",
+    "image": "https://lagorii.com/cdn/shop/files/green-ethnic-gown-for-girls-lagorii-kids-2.jpg?v=1703715317",
+    "description": "Traditional ethnic dress set for kids. Perfect for festive occasions.",
+    "rating": 4.7
+  },
+  {
+    "id": 25,
+    "name": "Men's Socks Pack",
+    "price": 299,
+    "categoryId": "men",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnHHaZbzmhtgbht94GKQ1OM3PICLcBmp6jww&s",
+    "description": "Pack of 5 cotton socks. Soft and breathable for all-day comfort.",
+    "rating": 4.2
+  },
+  {
+    "id": 26,
+    "name": "Women's T-Shirt",
+    "price": 599,
+    "categoryId": "women",
+    "image": "https://www.yourprint.in/new-admin-ajax.php?action=resize_outer_image&cfcache=all&url=med-s3/d-i-o/Tshirts/Women/tshirt_hs_women_pat_d24_o.jpg&resizeTo=600",
+    "description": "Casual T-shirt made of soft cotton. Comfortable for daily wear.",
+    "rating": 4.2
+  },
+  {
+    "id": 27,
+    "name": "Kids' Cap",
+    "price": 299,
+    "categoryId": "kids",
+    "image": "https://m.media-amazon.com/images/I/71zQUUNjPHL._UY1100_.jpg",
+    "description": "Cute printed cap for sun protection. Adjustable size.",
+    "rating": 4.2
+  },
+  {
+    "id": 28,
+    "name": "Men's Denim Jeans",
+    "price": 1199,
+    "categoryId": "men",
+    "image": "https://www.urbanofashion.com/cdn/shop/files/jeanvs-42a-dblue-1.jpg?v=1706709760",
+    "description": "Classic blue denim jeans for a stylish casual look. Durable and comfortable.",
+    "rating": 4.5
+  },
+  {
+    "id": 29,
+    "name": "Women's Jeans",
+    "price": 1199,
+    "categoryId": "women",
+    "image": "https://levi.in/cdn/shop/files/A70900040_Front.jpg?v=1718361599",
+    "description": "Slim fit denim jeans for everyday wear. Stylish and durable.",
+    "rating": 4.4
+  },
+  {
+    "id": 30,
+    "name": "Kids' Shorts",
+    "price": 399,
+    "categoryId": "kids",
+    "image": "https://www.mumkins.in/cdn/shop/files/boys-shorts-bl08666-navyblue-1.jpg?v=1713421821&width=1080",
+    "description": "Comfortable shorts for kids. Lightweight fabric for summer.",
+    "rating": 4.3
+  },
+  {
+    "id": 31,
+    "name": "Men's Polo T-Shirt",
+    "price": 899,
+    "categoryId": "men",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyQEFgPJxNE9fj4umDcRxcyy4w1Kioc9FDqA&s",
+    "description": "Classic polo T-shirt with soft cotton fabric. Great for casual wear.",
+    "rating": 4.4
+  },
+  {
+    "id": 32,
+    "name": "Women's Maxi Dress",
+    "price": 1699,
+    "categoryId": "women",
+    "image": "https://m.media-amazon.com/images/I/81fMDxmn8bL._UY1100_.jpg",
+    "description": "Elegant maxi dress for parties and outings. Comfortable and stylish.",
+    "rating": 4.6
+  },
+  {
+    "id": 33,
+    "name": "Kids' Hoodie",
+    "price": 899,
+    "categoryId": "kids",
+    "image": "https://www.weprintyourgift.com/cdn/shop/files/kids-hoodie-cute-unicorn-we-print-58918.jpg?v=1741679962&width=1080",
+    "description": "Warm hoodie for kids with fun prints. Cozy and stylish.",
+    "rating": 4.5
+  },
+  {
+    "id": 34,
+    "name": "Men's Kurta",
+    "price": 1299,
+    "categoryId": "men",
+    "image": "https://mahezon.in/cdn/shop/files/IMG-20231006-WA0286_800x1026_crop_center@2x.jpg?v=1696603117",
+    "description": "Traditional cotton kurta for festive occasions. Light and comfortable.",
+    "rating": 4.6
+  },
+  {
+    "id": 35,
+    "name": "Women's Skirt",
+    "price": 899,
+    "categoryId": "women",
+    "image": "https://m.media-amazon.com/images/I/A11aN2b1yJL._UY1100_.jpg",
+    "description": "Trendy skirt for casual and semi-formal wear. Comfortable fit.",
+    "rating": 4.3
+  },
+  {
+    "id": 36,
+    "name": "Kids' Party Dress",
+    "price": 1199,
+    "categoryId": "kids",
+    "image": "https://www.cutedoll.in/cdn/shop/files/3158A.jpg?v=1715855457",
+    "description": "Fancy party dress for girls. Perfect for birthdays and special events.",
+    "rating": 4.7
+  },
+  {
+    "id": 37,
+    "name": "Men's Watch",
+    "price": 1999,
+    "categoryId": "men",
+    "image": "https://images-cdn.ubuy.co.in/67e2d6d0c68f0906cc63df9b-poedagar-men-watch-luxury-business.jpg",
+    "description": "Stylish wrist watch for men. Elegant and durable design.",
+    "rating": 4.5
+  },
+  {
+    "id": 38,
+    "name": "Women's Earrings",
+    "price": 499,
+    "categoryId": "women",
+    "image": "https://shop.globalbees.com/cdn/shop/files/b4jmvsnsyodsizxjpvh2.jpg?v=1738820476",
+    "description": "Beautiful earrings to enhance your style. Lightweight and classy.",
+    "rating": 4.4
+  },
+  {
+    "id": 39,
+    "name": "Kids' School Bag",
+    "price": 899,
+    "categoryId": "kids",
+    "image": "https://m.media-amazon.com/images/I/71bvZ7iotML._UY1100_.jpg",
+    "description": "Colorful school bag with cartoon design. Spacious and durable.",
+    "rating": 4.6
+  },
+  {
+    "id": 40,
+    "name": "Men's Blazer",
+    "price": 3499,
+    "categoryId": "men",
+    "image": "https://i0.wp.com/folksana.in/wp-content/uploads/2024/03/PRUSSIAN-2-scaled.jpeg?fit=600%2C800&ssl=1",
+    "description": "Premium blazer for formal occasions. Perfect tailored fit.",
+    "rating": 4.7
+  },
+  {
+    "id": 41,
+    "name": "Women's Scarf",
+    "price": 399,
+    "categoryId": "women",
+    "image": "https://m.media-amazon.com/images/I/918daW6l5lL._UY1100_.jpg",
+    "description": "Soft and stylish scarf. Great for all seasons.",
+    "rating": 4.3
+  },
+  {
+    "id": 42,
+    "name": "Kids' Socks Pack",
+    "price": 299,
+    "categoryId": "kids",
+    "image": "https://images.meesho.com/images/products/364171794/pdgfp_512.webp",
+    "description": "Pack of 5 colorful socks for kids. Soft and breathable fabric.",
+    "rating": 4.2
+  },
+  {
+    "id": 43,
+    "name": "Men's Sneakers",
+    "price": 2299,
+    "categoryId": "men",
+    "image": "https://rukminim2.flixcart.com/image/704/844/xif0q/shoe/h/w/h/-original-imahd2zhb8qqbbhy.jpeg?q=90&crop=false",
+    "description": "Trendy sneakers with cushioned sole. Perfect for casual use.",
+    "rating": 4.6
+  },
+  {
+    "id": 44,
+    "name": "Women's Palazzo Pants",
+    "price": 999,
+    "categoryId": "women",
+    "image": "https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/30160837/2024/10/11/6f7bc8e1-810e-42dc-bd53-8941c38c2c801728657601359-ADA-Women-Ethnic-Motifs-Embroidered-Flared-Ethnic-Palazzos-7-1.jpg",
+    "description": "Comfortable palazzo pants. Suitable for office and daily wear.",
+    "rating": 4.4
+  },
+  {
+    "id": 45,
+    "name": "Kids' Winter Cap",
+    "price": 299,
+    "categoryId": "kids",
+    "image": "https://littlesurprisebox.com/cdn/shop/products/orange-tiger-woven-stretchable-woolen-winter-cap-for-kids-with-matching-neck-muffler-set-3-10yrslittle-surprise-box-615152.jpg?v=1689252578",
+    "description": "Warm woolen cap for kids. Cute and cozy.",
+    "rating": 4.5
+  },
+  {
+    "id": 46,
+    "name": "Men's Tracksuit",
+    "price": 1999,
+    "categoryId": "men",
+    "image": "https://m.media-amazon.com/images/I/512-ncwCyYL._UY1100_.jpg",
+    "description": "Comfortable tracksuit for sports and workouts. Breathable fabric.",
+    "rating": 4.6
+  },
+  {
+    "id": 47,
+    "name": "Women's Lehenga",
+    "price": 3499,
+    "categoryId": "women",
+    "image": "https://i.pinimg.com/736x/1e/f3/f8/1ef3f8a4eefb972611b3cc2e39e986d7.jpg",
+    "description": "Traditional lehenga for weddings and festivals. Elegant embroidery.",
+    "rating": 4.8
+  },
+  {
+    "id": 48,
+    "name": "Kids' Raincoat",
+    "price": 699,
+    "categoryId": "kids",
+    "image": "https://rukminim2.flixcart.com/image/704/844/jvwpfgw0/raincoat/f/x/y/12-13-years-cartoon-p1-the-original-imafg4shdbjvu3vk.jpeg?q=90&crop=false",
+    "description": "Colorful raincoat for kids. Waterproof and lightweight.",
+    "rating": 4.4
+  },
+  {
+    "id": 49,
+    "name": "Men's Tie",
+    "price": 299,
+    "categoryId": "men",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9bOGCUC-VBq2GdF_vd9lAZ_JRo4K_r8AdRA&s",
+    "description": "Elegant tie for office and formal occasions. Classic design.",
+    "rating": 4.2
+  },
+  {
+    "id": 50,
+    "name": "Women's Watch",
+    "price": 1799,
+    "categoryId": "women",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCNupF5BTqTXwXuAD1lX44L2w-ngKXYWShmw&s",
+    "description": "Stylish watch with modern design. Perfect accessory for any outfit.",
+    "rating": 4.6
+  },
+  {
+    "id": 51,
+    "name": "Kids' Kurta Pajama",
+    "price": 1099,
+    "categoryId": "kids",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqBrNIX62v2RevzornRR54XimwRab-A5i68g&s",
+    "description": "Ethnic kurta pajama set for boys. Ideal for festivals and family events.",
+    "rating": 4.6
+  },
+  {
+    "id": 52,
+    "name": "Men's Kurta Pajama",
+    "price": 1799,
+    "categoryId": "men",
+    "image": "https://cdn.klothtrend.com/imgbook/product/wc/20231030/1698674970410140831.webp",
+    "description": "Classic kurta pajama for men. Traditional festive attire.",
+    "rating": 4.7
+  },
+  {
+    "id": 53,
+    "name": "Women's Blouse",
+    "price": 699,
+    "categoryId": "women",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReJKgTjMcGr9YCIJsR2uluo2KWyA0tyLZYmQ&s",
+    "description": "Designer blouse for sarees. Comfortable and stylish.",
+    "rating": 4.4
+  },
+  {
+    "id": 54,
+    "name": "Kids' Mittens",
+    "price": 199,
+    "categoryId": "kids",
+    "image": "https://m.media-amazon.com/images/I/51x6NUkkvyL._UY1100_.jpg",
+    "description": "Warm mittens for kids. Soft and cozy for winters.",
+    "rating": 4.3
+  },
+  {
+    "id": 55,
+    "name": "Men's Wallet",
+    "price": 799,
+    "categoryId": "men",
+    "image": "https://m.media-amazon.com/images/I/81ywdKWNNdL._UY1100_.jpg",
+    "description": "Premium leather wallet with multiple compartments. Durable and stylish.",
+    "rating": 4.5
+  },
+  {
+    "id": 56,
+    "name": "Women's Dupatta",
+    "price": 499,
+    "categoryId": "women",
+    "image": "https://m.media-amazon.com/images/I/81VjJv0b1gL._UY1100_.jpg",
+    "description": "Elegant dupatta with embroidery. Matches well with ethnic wear.",
+    "rating": 4.3
+  },
+  {
+    "id": 57,
+    "name": "Kids' Leggings",
+    "price": 399,
+    "categoryId": "kids",
+    "image": "https://www.demozastores.com/cdn/shop/products/2_e736d041-cf1c-49a7-9d02-3641e439c919.jpg?v=1753461739&width=1200",
+    "description": "Stretchable leggings for kids. Comfortable for daily wear.",
+    "rating": 4.4
+  },
+  {
+    "id": 58,
+    "name": "Men's Flip Flops",
+    "price": 499,
+    "categoryId": "men",
+    "image": "https://5.imimg.com/data5/UB/ZN/BB/ANDROID-2408733/flipflop-1-jpg-500x500.jpg",
+    "description": "Comfortable flip flops for casual use. Lightweight and durable.",
+    "rating": 4.2
+  },
+  {
+    "id": 59,
+    "name": "Women's Flats",
+    "price": 899,
+    "categoryId": "women",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvLyXbXLVVcyYFoUz2SgEMcS30nwvq2HS-OBmu-ZJYPvuVnRHlm5YngaxED6Tuj2n9WmA&usqp=CAU",
+    "description": "Comfortable and stylish flats. Perfect for daily wear.",
+    "rating": 4.4
+  },
+  {
+    "id": 60,
+    "name": "Kids' Sunglasses",
+    "price": 399,
+    "categoryId": "kids",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFrAiwIJwiUyJpy_STzJR--dTVkmpsOhLEGw&s",
+    "description": "Cute sunglasses for kids with UV protection. Stylish and safe.",
+    "rating": 4.5
+  },
+  {
+    "id": 61,
+    "name": "Men's Sherwani",
+    "price": 4999,
+    "categoryId": "men",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqqBH9DDqd27aYiOmtxb0SkdY8dBB504r9YQ&s",
+    "description": "Traditional sherwani for weddings. Premium embroidery and fit.",
+    "rating": 4.9
+  },
+  {
+    "id": 62,
+    "name": "Women's Anarkali Suit",
+    "price": 2799,
+    "categoryId": "women",
+    "image": "https://mahezon.in/cdn/shop/files/IMG-20240801_140006_859_800x1026_crop_center@2x.jpg?v=1722501147",
+    "description": "Elegant anarkali suit with dupatta. Perfect festive wear.",
+    "rating": 4.8
+  },
+  {
+    "id": 63,
+    "name": "Kids' Track Pants",
+    "price": 699,
+    "categoryId": "kids",
+    "image": "https://www.westside.com/cdn/shop/files/301007087BLACK_1.jpg?v=1738664335",
+    "description": "Comfortable track pants for kids. Great for sports and casual wear.",
+    "rating": 4.4
+  },
+  {
+    "id": 64,
+    "name": "Men's Cap",
+    "price": 399,
+    "categoryId": "men",
+    "image": "https://m.media-amazon.com/images/I/71STSgJ4wOL._UF894,1000_QL80_.jpg",
+    "description": "Casual cap with adjustable strap. Protects from sun.",
+    "rating": 4.3
+  },
+  {
+    "id": 65,
+    "name": "Women's Clutch",
+    "price": 1299,
+    "categoryId": "women",
+    "image": "https://images.meesho.com/images/products/432114391/gm1au_512.webp?width=512",
+    "description": "Elegant clutch for parties and weddings. Compact and stylish.",
+    "rating": 4.6
+  },
+  {
+    "id": 66,
+    "name": "Kids' Night Suit",
+    "price": 799,
+    "categoryId": "kids",
+    "image": "https://m.media-amazon.com/images/I/716nOO7sI1L._UY1100_.jpg",
+    "description": "Soft cotton night suit for kids. Cute printed design.",
+    "rating": 4.5
+  },
+  {
+    "id": 67,
+    "name": "Men's Formal Shoes",
+    "price": 2499,
+    "categoryId": "men",
+    "image": "https://images.meesho.com/images/products/267606860/reoxo_512.webp?width=512",
+    "description": "Classic leather formal shoes. Perfect for office and events.",
+    "rating": 4.7
+  },
+  {
+    "id": 68,
+    "name": "Women's Saree Blouse",
+    "price": 799,
+    "categoryId": "women",
+    "image": "https://www.mirraclothing.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-12-at-2.48.49-PM.jpeg",
+    "description": "Ready-to-wear saree blouse with modern design. Stretchable fabric.",
+    "rating": 4.5
+  },
+  {
+    "id": 69,
+    "name": "Kids' Sports Shoes",
+    "price": 1199,
+    "categoryId": "kids",
+    "image": "https://image.made-in-china.com/2f0j00YMHiIfNJhpuq/New-Style-Baby-Shoes-for-Boys-Sports-Shoes-Girls-Light-Weight-Running-Kids-Sneakers.webp",
+    "description": "Lightweight sports shoes for kids. Perfect for school and outdoor play.",
+    "rating": 4.6
+  },
+  {
+    "id": 70,
+    "name": "Women's Jumpsuit",
+    "price": 1899,
+    "categoryId": "women",
+    "image": "https://m.media-amazon.com/images/I/71+JyODR+PL._UY1100_.jpg",
+    "description": "Trendy jumpsuit with modern style. Comfortable and chic.",
+    "rating": 4.7
+  }
+]
+
