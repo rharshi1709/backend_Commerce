@@ -43,8 +43,7 @@ export const login= async (req,res)=>{
       if (!existingUser){
        return res.status(400).json({message:"User not registered"})
       }
-      const hashedPassword = await bcrypt.hash(existingUser.password, 10);
-      const isValidpassword= await bcrypt.compare(password,hashedPassword)
+      const isValidpassword= await bcrypt.compare(password,existingUser.password)
       if (!isValidpassword){
         return res.status(400).json({message:"invalid Credentials"})
       }
