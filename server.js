@@ -21,15 +21,6 @@ const PORT=process.env.PORT
 mongoose.connect(URI)
 .then(async ()=>{
     console.log("Successfully Connected to DB")
-    const count =await Product.countDocuments()
-    
-    if (count==0){
-        await Product.insertMany(products)
-        console.log("Inserted all products")
-    }
-    else{
-        console.log("products  already inserted")
-    }
     app.listen(PORT,()=>{
         console.log(`Server Running on port no ${PORT}`)
     })
@@ -37,5 +28,3 @@ mongoose.connect(URI)
 .catch((err)=>{
     console.log(err)
 })
-// schema -Model 
-//
