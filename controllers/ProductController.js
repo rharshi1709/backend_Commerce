@@ -36,7 +36,7 @@ export const getProductDetails = async (req, res) => {
     const id=req.params.id
    
 try{
-   const details = await Product.findOne({id:id})
+   const details = await Product.findOne({id:Number(id)})
    res.status(200).json({message:`your id is ${id}`,
    data:details
    })
