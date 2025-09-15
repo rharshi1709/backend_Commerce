@@ -1,26 +1,21 @@
-import User from "../models/UserModel.js";
+import Admin from '../models/AdminModel.js'
 import bcrypt from 'bcrypt'
 import 'dotenv/config'
 import jwt from 'jsonwebtoken'
-export const register = async (req,res)=>{
+export const Adminregister = async (req,res)=>{
       try{
-        const {username,password,email} =req.body
-        const isUser= await User.findOne({username})
-        const isEmail=await User.findOne({email})
-        if (isUser){
+        const {username,password} =req.body
+        const isAdmin= await Admin.findOne({username})
+        
+        if (isAdmin){
            return res.status(400).json({
                 "ok":false,
-                "message":"User Already Exits"
+                "message":"Admin Already Exits"
             })
         }
-        if (isEmail){
-           return res.status(400).json({
-                "ok":false,
-                "message":"Email Already Exits"
-            })
-        }
+       
          const hashedPassword = await bcrypt.hash(password, 10);
-        const data=await new User({ username, email, password:hashedPassword })
+        const data=await new Admin({ username, email, password:hashedPassword })
       const savedData = await data.save();
       res.status(201).json({
         "ok":true,
@@ -36,12 +31,12 @@ catch(err){
 
 
 }
-export const login= async (req,res)=>{
-      const {email,password}=req.body
+export const Adminlogin= async (req,res)=>{
+      const {username,password}=req.body
       try{
-      const existingUser= await User.findOne({email})
-      if (!existingUser){
-       return res.status(400).json({message:"User not registered"})
+      const existingAdmin= await Admin.findOne({username})
+      if (!existingAdmin){
+       return res.status(400).json({message:"Admin not registered"})
       }
       const isValidpassword= await bcrypt.compare(password,existingUser.password)
       if (!isValidpassword){
@@ -49,7 +44,7 @@ export const login= async (req,res)=>{
       }
       const code= process.env.KEY
        const payload={
-        email:existingUser.email
+          username:existingAdmin.username
 
        }
        const jwToken = jwt.sign(payload,code)
