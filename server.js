@@ -15,7 +15,7 @@ app.use(cors())
 dotenv.config()
 
 app.use(express.json())
-app.use('/api',router)
+app.use('/api', router)
 const URI= process.env.URI
 const PORT=process.env.PORT
 mongoose.connect(URI)
