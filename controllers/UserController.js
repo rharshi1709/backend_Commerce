@@ -20,12 +20,12 @@ export const register = async (req,res)=>{
             })
         }
          const hashedPassword = await bcrypt.hash(password, 10);
-        const data=await new User({ username, email, password:hashedPassword })
-      const savedData = await data.save();
+        const data=await User.create({ username, email, password:hashedPassword })
+     
       res.status(201).json({
         "ok":true,
         "message":"Registered Successfully...Please login to acees the features",
-        "data":savedData
+        "data":data
       })
       }
 catch(err){
