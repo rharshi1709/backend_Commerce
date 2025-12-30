@@ -47,7 +47,7 @@ export const login= async (req,res)=>{
       if (!isValidpassword){
         return res.status(400).json({message:"invalid Credentials"})
       }
-      const code= process.env.KEY
+      const code= process.env.ACCESS_KEY
        const payload={
         email:existingUser.email
 
