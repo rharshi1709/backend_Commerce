@@ -6,6 +6,7 @@ import { createOrder, getOrdersByUser, getOrderById } from '../controllers/Order
 import { addToWishlist, getWishlist, removeFromWishlist } from '../controllers/WishlistController.js'
 import { contact } from '../controllers/ContactControllers.js'
 import { createRazorpayOrder, verifyPayment } from '../controllers/PaymentController.js'
+import { authenticateToken as authMiddleware } from '../middleware/middleware.js'
 
 const router=express.Router()
 router.post('/register',register)
