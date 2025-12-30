@@ -2,30 +2,34 @@ import express from 'express'
 import { register ,login } from '../controllers/UserController.js'
 import {getProducts , getCategory,getProductDetails}from '../controllers/ProductController.js'
 import { createReview, deleteReview, getReviews } from '../controllers/ReviewController.js'
-// import { createOrder, getOrdersByUser, getOrderById, updateOrderStatus } from '../controllers/OrderController.js'
-// import { addToWishlist, getWishlist, removeFromWishlist, clearWishlist } from '../controllers/WishlistController.js'
+import { createOrder, getOrdersByUser, getOrderById } from '../controllers/OrderController.js'
+import { addToWishlist, getWishlist, removeFromWishlist } from '../controllers/WishlistController.js'
 import { contact } from '../controllers/ContactControllers.js'
-
-
+import { createRazorpayOrder, verifyPayment } from '../controllers/PaymentController.js'
 
 const router=express.Router()
-router.post('/register', register)
-router.get('/products',getProducts)
-router.get('/category',getCategory)
-router.get('/product/:id',getProductDetails)
-router.post('/review/:id',createReview)
-router.get('/review/:id',getReviews)
-router.delete('/review/:id',deleteReview)
+router.post('/register',register)
+router.get('/products',authMiddleware,getProducts)
+router.get('/category',authMiddleware,getCategory)
+router.get('/product/:id',authMiddleware,getProductDetails)
+router.post('/review/:id',  authMiddleware,createReview)
+router.get('/review/:id',authMiddleware,getReviews)
+router.delete('/review/:id',authMiddleware,deleteReview)
 router.post('/login', login)
 router.post('/contact',contact)
-// router.post('/order', createOrder)
-// router.get('/orders/:email', getOrdersByUser)
-// router.get('/order/:orderId', getOrderById)
-// router.patch('/order/:orderId', updateOrderStatus)
 
-// router.post('/wishlist', addToWishlist)
-// router.get('/wishlist/:userId', getWishlist)
-// router.delete('/wishlist/:userId/:productId', removeFromWishlist)
-// router.delete('/wishlist/:userId', clearWishlist)
+// Payment routes
+router.post('/payment/create-order', authMiddleware, createRazorpayOrder)
+router.post('/payment/verify', authMiddleware, verifyPayment)
+
+// Order routes
+router.post('/order', authMiddleware, createOrder)
+router.get('/orders', authMiddleware, getOrdersByUser)
+router.get('/order/:id', authMiddleware, getOrderById)
+
+// Wishlist routes
+router.post('/wishlist', authMiddleware, addToWishlist)
+router.get('/wishlist', authMiddleware, getWishlist)
+router.delete('/wishlist/:id', authMiddleware, removeFromWishlist)
 
 export default router
